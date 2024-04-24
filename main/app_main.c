@@ -24,6 +24,7 @@
 #include "ioplaca.h"   // Controles das Entradas e Saídas digitais e do teclado
 #include "lcdvia595.h" // Controles do Display LCD
 #include "hcf_adc.h"   // Controles do ADC
+#include "MP_hcf.h"   // Controles do ADC
 
 // Área das macros
 //-----------------------------------------------------------------------------------------------------------------------
