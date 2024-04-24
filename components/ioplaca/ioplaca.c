@@ -175,7 +175,8 @@ uint8_t io_le_escreve(uint8_t saidas)
     } 
     gpio_set_level(IO_SH_LD,0);
    // ets_delay_us(10); //vTaskDelay(10 / portTICK_RATE_MS); 
-
+    gpio_set_level(IO_SH_LD,1);//testar
+    gpio_set_level(IO_SH_LD,0);
     return entradas;
 
 }
