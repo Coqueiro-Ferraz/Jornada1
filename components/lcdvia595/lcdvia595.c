@@ -120,5 +120,5 @@ void lcd595_init(void)
 void lcd595_clear(void)
 {
     lcd595_byte(0x01, 0);
-    vTaskDelay(2 / portTICK_RATE_MS);
+    vTaskDelay(20 / portTICK_RATE_MS);
 }
