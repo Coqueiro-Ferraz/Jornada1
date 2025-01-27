@@ -25,8 +25,7 @@
 #include "lcdvia595.h" // Vai se tornar HCF_LCD
 #include "hcf_adc.h"   // Vai se tornar HCF_ADC
 #include "MP_hcf.h"   // Vai se tornar HCF_MP
-// Incluir HCF_IOT HCF_BT HCF_DHT HCF_ULTRA HCF_RFID HCF_ZMPT HCF_ACS HCF_SERVO 
-
+// Incluir HCF_IOT HCF_BT HCF_DHT HCF_ULTRA HCF_RFID HCF_ZMPT HCF_ACS HCF_SERVO HCF_OLED HCF_CAM HCF_SD HCF_LORA
 
 
 // Área das macros
