@@ -21,10 +21,13 @@
 #include "freertos/task.h"
 #include "esp_log.h"
 
-#include "ioplaca.h"   // Controles das Entradas e Saídas digitais e do teclado
-#include "lcdvia595.h" // Controles do Display LCD
-#include "hcf_adc.h"   // Controles do ADC
-#include "MP_hcf.h"   // Controles do ADC
+#include "ioplaca.h"   // Vai se tornar HCF_IO
+#include "lcdvia595.h" // Vai se tornar HCF_LCD
+#include "hcf_adc.h"   // Vai se tornar HCF_ADC
+#include "MP_hcf.h"   // Vai se tornar HCF_MP
+// Incluir HCF_IOT HCF_BT HCF_DHT HCF_ULTRA HCF_RFID HCF_ZMPT HCF_ACS HCF_SERVO 
+
+
 
 // Área das macros
 //-----------------------------------------------------------------------------------------------------------------------
